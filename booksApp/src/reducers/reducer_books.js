@@ -12,5 +12,5 @@ export default function() {
         {
             title:"Astrophysics for People in a Hurry"
         }
-    ]
+    ];
 }
