@@ -1,0 +1,9 @@
+# Always ignore node_modules
+node_modules
+
+# Ignore package lock json
+*-lock.json
+*.lock
+
+# Ignore setting and config from Text Editors
+.vscode
