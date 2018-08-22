@@ -14,7 +14,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
       <div>
-        <Route exact path="/" component={PostsList} />
+        <Route path="/" component={PostsList} />
       </div>
     </BrowserRouter>
   </Provider>
