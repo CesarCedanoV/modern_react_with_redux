@@ -1,11 +1,10 @@
 import React from 'react';
 
 const CommentDetail = props => {
-  console.log(props)
   return (
     <div className="comment">
         <a href="/" className="avatar">
-          <img alt="avatar" src={props.imgSrc}/>
+          <img alt="avatar" src={props.avatarSrc}/>
         </a>
         <div className="content">
           <a href="/" className="author">
