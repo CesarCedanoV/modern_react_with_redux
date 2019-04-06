@@ -10,6 +10,9 @@ const VideoItem = ({ video, onVideoSelect }) => {
       />
       <div className="content">
         <div className="header">{video.snippet.title}</div>
+        <div>
+          Go to video: <a target="_blank" href={`https://www.youtube.com/watch?v=${video.id.videoId}`}>Click here!</a>
+        </div>
       </div>
     </div>
   );
