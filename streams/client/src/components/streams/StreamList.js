@@ -14,10 +14,12 @@ class StreamList extends React.Component {
       return (
         <div className="right floated">
         <button className="ui button primary">
-          <Link to={`/streams/edit`}>Update</Link>
+          Edit
+          {/* <Link to={`/streams/edit`}>Update</Link> */}
         </button>
         <button className="ui button negative">
-          <Link to={`/streams/delete`}>Delete</Link>
+          Delete
+          {/* <Link to={`/streams/delete`}>Delete</Link> */}
         </button>
         </div>
       )
@@ -42,8 +44,8 @@ class StreamList extends React.Component {
   renderCreateBtn() {
     if (this.props.isSignedIn) {
       return ( 
-        <div>
-          <Link to="/streams/new">Create Strem</Link>
+        <div style={{textAlign:'right'}}>
+          <Link to="/streams/new" className="ui button primary">Create Strem</Link>
         </div>
       )
     }
